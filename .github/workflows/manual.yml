@@ -45,7 +45,6 @@ jobs:
         
         user_list=()
         pwd_list=()
-        IFS=","
         for u in ${user[*]}
         do
         user_list[${#user_list[*]}]=${u}
